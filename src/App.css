@@ -1,0 +1,151 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f0fa;
+  color: #333;
+  margin: 0;
+  padding: 0 20px 20px 20px;
+}
+ 
+h1 {
+  text-align: center;
+  color: #6a1b9a;
+}
+ 
+h2, h3 {
+  color: #6a1b9a;
+}
+ 
+h2 {
+  text-align: center;
+}
+ 
+/* Navbar */
+.navbar {
+  background-color: #6a1b9a;
+  margin: 0 -20px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+ 
+.brand {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+ 
+.links {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+ 
+.links a {
+  color: white;
+  text-decoration: none;
+}
+ 
+.links a:hover {
+  text-decoration: underline;
+}
+ 
+.navbar button {
+  margin-top: 0;
+  background-color: #ce93d8;
+  color: #4a148c;
+}
+ 
+/* Cards */
+.card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 15px auto;
+  max-width: 800px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  overflow-x: auto;
+}
+ 
+label {
+  display: inline-block;
+  margin-top: 8px;
+}
+ 
+input, select {
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 90%;
+  display: block;
+}
+ 
+button {
+  background-color: #8e24aa;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 8px;
+  margin-right: 5px;
+}
+ 
+button:hover {
+  background-color: #6a1b9a;
+}
+ 
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+ 
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+ 
+th {
+  background-color: #ce93d8;
+  color: white;
+}
+ 
+td button {
+  margin-top: 0;
+}
+ 
+/* Low stock */
+.low {
+  color: red;
+  font-weight: bold;
+}
+ 
+.low-row {
+  background-color: #ffebee;
+}
+ 
+.error {
+  color: red;
+}
+ 
+/* Dashboard boxes */
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+ 
+.stats .card {
+  text-align: center;
+  min-width: 120px;
+  margin: 15px 0;
+}
+ 
