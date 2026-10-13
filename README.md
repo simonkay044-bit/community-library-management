@@ -120,7 +120,7 @@ This project was developed as part of a web development assignment to demonstrat
 
 ## Author
 
-**Simon Kay044**
+litsitso khaahloe
 
 ## Repository
 
